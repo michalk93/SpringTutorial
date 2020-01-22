@@ -7,4 +7,9 @@ public class FootballCoach implements Coach {
 		return "Pratice corner kicks";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
+
 }
